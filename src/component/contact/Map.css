@@ -1,0 +1,11 @@
+map{
+
+    position: relative;
+    /* padding: 0 !important; */
+}
+
+@media(max-width:768px){
+    map{
+        height: 200px;
+    }
+}
