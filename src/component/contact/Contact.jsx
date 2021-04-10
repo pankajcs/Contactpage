@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Contact.css";
 import Icon from "../socialMedia/Icon";
 import CkeckListForm from "../contact/Form/CkeckListForm";
+import Img from './Map'
 
 class Contact extends Component {
   render() {
@@ -20,6 +21,7 @@ class Contact extends Component {
                 The Netherlands 🇳🇱
               </p>
               <Icon />
+              <Img/>
             </div>
           </div>
           <div className="inner-semi-right">

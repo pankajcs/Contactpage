@@ -4,11 +4,12 @@ import './Map.css'
 
 const style={
     backgroundImage: `url(${mapImg})` ,
-    backgroundPosition: 'center',
+    // backgroundPosition: 'center',
+    backgroundPosition: 'top center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    height: '400px',
-    width:'100%' 
+    width: '100%',
+    height: '100%'
 }
 
 const Map=()=> {

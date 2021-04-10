@@ -5,7 +5,7 @@ map{
 }
 
 @media(max-width:768px){
-    map{
+    map style{
         height: 200px;
     }
 }
