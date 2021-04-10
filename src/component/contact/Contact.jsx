@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Contact.css";
 import Icon from "../socialMedia/Icon";
 import CkeckListForm from "../contact/Form/CkeckListForm";
-import Img from './Map'
+import Img from './Map';
 
 class Contact extends Component {
   render() {

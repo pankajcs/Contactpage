@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./form.css";
+import Button from '../../button/Button'
 
 class CkeckListForm extends Component {
   constructor() {
@@ -61,7 +62,7 @@ class CkeckListForm extends Component {
               ></input>
               Plan a video call
             </label>
-            <button className="next">Next</button>
+            <Button/>
           </form>
         </div>
       </>
