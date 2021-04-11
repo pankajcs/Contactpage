@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 #container {
@@ -15,6 +16,10 @@
   height: auto;
   padding: 100px 90px;
   overflow-y: scroll;
+}
+#container .contact-title i{
+  font-size: 25px;
+  display: none;
 }
 #container .contact-title h2 {
   font-size: 70px;
@@ -92,6 +97,7 @@
   background: #58c7ff;
   width: 50%;
   height: auto;
+  /* display: none; */
 }
 
 #container .inner-semi-right{

@@ -1,17 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './Button.css'
 
+class Button extends Component {
 
-// const clickhandler=()=>{
-//     return
-// }
+    clickhandle=()=>{
+        var element = document.getElementById("mystyle");
+        element.classList.add("next");
+    }
 
-const Button=()=> {
-    return (
-        <>
-<button className="next" >Next</button>
-        </>
-    )
+//     jQuery(document).on('click','.next',function(){
+//         jQuery('.inner-form-heading').css("display", "none");
+
+// });
+    render(){
+        
+        return (
+
+            <>
+    <button id="mystyle" className="next" onClick={this.clickhandlesna} >Next</button>
+            </>
+        )
+    }
+  
 }
 
 export default Button

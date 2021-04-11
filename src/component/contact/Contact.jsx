@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Contact.css";
 import Icon from "../socialMedia/Icon";
 import CkeckListForm from "../contact/Form/CkeckListForm";
-import Img from './Map';
+import Img from "./Map";
+// import MainForm from './Form/MainForm'
 
 class Contact extends Component {
   render() {
@@ -11,6 +12,7 @@ class Contact extends Component {
         <section id="container">
           <div className="inner-semi-left">
             <div className="contact-title">
+              <i className="close fas fa-arrow-right"></i>
               <h2>We’re here</h2>
               <p>Our door is always open for a good cup of coffee.</p>
             </div>
@@ -21,7 +23,7 @@ class Contact extends Component {
                 The Netherlands 🇳🇱
               </p>
               <Icon />
-              <Img/>
+              <Img />
             </div>
           </div>
           <div className="inner-semi-right">
@@ -39,7 +41,10 @@ class Contact extends Component {
               <h4>Let's talk about</h4>
               <CkeckListForm />
             </div>
+            {/* Second form page */}
+            <div className="second-page"></div>
           </div>
+          {/* <MainForm/> */}
         </section>
       </>
     );
